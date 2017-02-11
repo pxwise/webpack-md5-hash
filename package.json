@@ -19,18 +19,21 @@
     "md5"
   ],
   "author": "Kirill Ermolov",
-  "contributors": [{
-    "name": "Sebastien Dubois",
-    "email": "seb@dsebastien.net",
-    "url": "https://www.dsebastien.net"
-  }],
+  "contributors": [
+    {
+      "name": "Sebastien Dubois",
+      "email": "seb@dsebastien.net",
+      "url": "https://www.dsebastien.net"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/erm0l0v/webpack-md5-hash/issues"
   },
   "homepage": "https://github.com/erm0l0v/webpack-md5-hash",
   "dependencies": {
-    "md5": "^2.0.0"
+    "md5": "^2.0.0",
+    "xxhash": "^0.2.4"
   },
   "devDependencies": {
     "argparse": "^1.0.4",
